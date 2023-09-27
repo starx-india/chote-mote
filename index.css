@@ -1,0 +1,42 @@
+.leftdice{
+   display: grid;
+    background-color: rgb(53, 181, 6);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr 0.5fr ;
+    height: 800px;
+    width: 500px;
+    gap: 10px;
+}
+.leftdice-text{
+    background-color: rgb(203, 15, 96);
+    height: 245px;
+    width: 245px;
+}
+img{
+    height: 245px;
+    width: 245px;
+}
+.texts{
+    background-color: rgb(0, 0, 0);
+    height: 40pxpx;
+    width: 245px;
+}
+h2{
+    text-align: center;
+    background-color: rgb(35, 192, 150);
+}
+.texts2{
+    background-color: rgb(0, 0, 0);
+    height: 40pxpx;
+    width: 245px;
+    grid-column-start: 0;
+    grid-column-end: ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(242, 245, 242);
+}
